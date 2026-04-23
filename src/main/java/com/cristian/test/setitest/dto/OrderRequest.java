@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderRequest {
 
-    @JsonProperty("enviarPedido")
-    private OrderPayload order;
+  @JsonProperty("enviarPedido")
+  private OrderPayload order;
 }

@@ -12,21 +12,21 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderPayload {
 
-    @JsonProperty("numPedido")
-    private String orderNumber;
+  @JsonProperty("numPedido")
+  private String orderNumber;
 
-    @JsonProperty("cantidadPedido")
-    private String quantity;
+  @JsonProperty("cantidadPedido")
+  private String quantity;
 
-    @JsonProperty("codigoEAN")
-    private String eanCode;
+  @JsonProperty("codigoEAN")
+  private String eanCode;
 
-    @JsonProperty("nombreProducto")
-    private String productName;
+  @JsonProperty("nombreProducto")
+  private String productName;
 
-    @JsonProperty("numDocumento")
-    private String documentNumber;
+  @JsonProperty("numDocumento")
+  private String documentNumber;
 
-    @JsonProperty("direccion")
-    private String address;
+  @JsonProperty("direccion")
+  private String address;
 }

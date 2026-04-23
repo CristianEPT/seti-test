@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderResponse {
 
-    @JsonProperty("enviarPedidoRespuesta")
-    private OrderResponsePayload orderResponse;
+  @JsonProperty("enviarPedidoRespuesta")
+  private OrderResponsePayload orderResponse;
 }

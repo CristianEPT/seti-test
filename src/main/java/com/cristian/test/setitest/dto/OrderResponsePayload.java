@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderResponsePayload {
 
-    @JsonProperty("codigoEnvio")
-    private String shippingCode;
+  @JsonProperty("codigoEnvio")
+  private String shippingCode;
 
-    @JsonProperty("estado")
-    private String status;
+  @JsonProperty("estado")
+  private String status;
 }

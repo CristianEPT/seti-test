@@ -17,9 +17,9 @@ import lombok.NoArgsConstructor;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ShipmentResponse {
 
-    @XmlElement(name = "Codigo")
-    private String code;
+  @XmlElement(name = "Codigo")
+  private String code;
 
-    @XmlElement(name = "Mensaje")
-    private String message;
+  @XmlElement(name = "Mensaje")
+  private String message;
 }

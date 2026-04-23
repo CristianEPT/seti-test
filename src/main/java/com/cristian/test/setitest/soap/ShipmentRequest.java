@@ -17,21 +17,21 @@ import lombok.NoArgsConstructor;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ShipmentRequest {
 
-    @XmlElement(name = "pedido")
-    private String orderNumber;
+  @XmlElement(name = "pedido")
+  private String orderNumber;
 
-    @XmlElement(name = "Cantidad")
-    private String quantity;
+  @XmlElement(name = "Cantidad")
+  private String quantity;
 
-    @XmlElement(name = "EAN")
-    private String eanCode;
+  @XmlElement(name = "EAN")
+  private String eanCode;
 
-    @XmlElement(name = "Producto")
-    private String productName;
+  @XmlElement(name = "Producto")
+  private String productName;
 
-    @XmlElement(name = "Cedula")
-    private String documentNumber;
+  @XmlElement(name = "Cedula")
+  private String documentNumber;
 
-    @XmlElement(name = "Direccion")
-    private String address;
+  @XmlElement(name = "Direccion")
+  private String address;
 }

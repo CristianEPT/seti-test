@@ -10,8 +10,9 @@ import org.springframework.web.client.RestClient;
 public class RestClientConfig {
 
   @Bean
-  public RestClient soapRestClient(@Value("${acme.soap.url}") String soapUrl) {
-    return RestClient.builder()
+  public RestClient soapRestClient(
+      RestClient.Builder builder, @Value("${acme.soap.url}") String soapUrl) {
+    return builder
         .baseUrl(soapUrl)
         .defaultHeader(HttpHeaders.CONTENT_TYPE, "text/xml;charset=UTF-8")
         .defaultHeader("SOAPAction", "")

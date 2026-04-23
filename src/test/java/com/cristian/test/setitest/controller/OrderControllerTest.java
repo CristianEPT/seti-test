@@ -63,6 +63,6 @@ class OrderControllerTest {
   void postOrderWithEmptyBodyReturns400() throws Exception {
     mockMvc
         .perform(post("/api/orders").contentType(MediaType.APPLICATION_JSON).content("{}"))
-        .andExpect(status().isOk());
+        .andExpect(status().isBadRequest());
   }
 }
